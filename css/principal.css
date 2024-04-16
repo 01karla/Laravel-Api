@@ -1,0 +1,65 @@
+/* index.css */
+
+/* Navbar background color */
+.navbar {
+    background-color: #262526;
+}
+
+/* Navbar brand text color */
+.navbar-brand {
+    color: #f3f3f3;
+}
+
+/* Navbar toggler icon color */
+.navbar-toggler-icon {
+    background-color: #f3f3f3;
+}
+
+/* Navbar link color */
+.navbar-nav .nav-link {
+    color: #f3f3f3;
+}
+
+/* Active link color */
+.navbar-nav .nav-link.active {
+    color: #7f8084;
+}
+
+/* Dropdown link color */
+.navbar-nav .nav-link.dropdown-toggle {
+    color: #f3f3f3;
+}
+
+/* Dropdown menu background color */
+.dropdown-menu {
+    background-color: #262526;
+}
+
+/* Dropdown menu link color */
+.dropdown-menu .dropdown-item {
+    color: #f3f3f3;
+}
+
+/* Hover color for dropdown menu */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #7f8084;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a lo largo de la línea */
+    align-items: center; /* Centra los elementos verticalmente */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px; /* Espacio entre elementos */
+  }
+  
+  .navbar-nav .dropdown {
+    position: static; /* Evita que el menú desplegable se muestre debajo */
+  }
+  
+  .dropdown-menu {
+    top: auto; /* Reajusta la posición del menú desplegable */
+    left: auto;
+  }
+  
